@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>QRコードでWebAR球体</title>
+    <title>QRコードで3dモデル</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   </head>
@@ -10,7 +10,7 @@
     <a-scene embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;">
     
       <a-marker type="pattern" url="pattern-QR_655903 (1).patt">
-  <a-gltf-model src="croissant.glb" position="0 0 0" scale="0.1 0.1 0.1"></a-gltf-model>
+  <a-gltf-model src="croissant.glb" position="0 0 -0.2" scale="1 1 1"></a-gltf-model>
 </a-marker>
       
       <a-entity camera></a-entity>
